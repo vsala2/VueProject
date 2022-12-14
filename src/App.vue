@@ -28,7 +28,7 @@ export default{
     },
     methods: {
         async fetchPizzeria (){
-          const res = await fetch("http://localhost:8080/api")
+          const res = await fetch("http://localhost:8081/api")
           const data = await res.json()
           console.log(data)
 
